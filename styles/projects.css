@@ -1,0 +1,159 @@
+
+body{
+    max-width: 1200px !important;
+    padding: 0 20px !important;
+    margin: 0 auto;
+}
+
+/* shared style */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-section{display: flex;}
+.text-orange{
+    color: #FEA301;
+}
+.text-skyblue{
+    color: #01ACFD;
+}
+.text-lightblue{
+    color: rgba(5, 212, 223, 1);
+}
+.text-darkblue{
+    color: rgba(93, 88, 239, 1);
+}
+/* navbar related style */
+.nav-links{display: flex;}
+ .nav-item{
+    list-style: none;
+    margin-right: 40px;
+ }
+ .nav-link{
+    text-decoration: none;
+ }
+ .navbar{
+    font-size: 20px;
+ }
+.contact-section{
+    width: 177px;
+    max-width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #FEA301;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;    
+}
+
+ /* banner section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.empowering-section{
+    font-size: 56px;
+}
+.paragraph-section{
+    font-size: 20px;
+    color: #111111;
+}
+.banner-text{
+    max-width: 640px;
+}
+.enroll-section{
+    background-color: black;
+    width: 177px;
+    max-width: 100%;
+    height: 50px;
+    padding: 10px 10px;;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.standard-section{
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 80px;
+    font-weight: bold;
+
+}
+
+
+/* card section */
+.card-section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.kinder-section{
+    border: 2px solid skyblue;
+    width: 367px;
+    height: 424px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.elementary-section{
+    width: 367px;
+    height: 476;
+}
+.middle-section{
+    width: 367px;
+    height: 476px;
+}
+.kinder-header-section{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.kinder-para-section{
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 49px;
+}
+.button-section{
+    color: rgba(100, 200, 255, 1);
+    border: none;
+    background-color: white;
+    font-size: 16px;
+
+}
+.elementary-section{
+    border: 2px solid skyblue;
+    width: 367px;
+    height: 424px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.elementary-para-section{
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 49px;
+}
+.elementary-button-section{
+    color: rgba(240, 170, 0, 1);
+    border: none;
+    background-color: white;
+    font-size: 16px;
+
+}
+.middle-section{
+    border: 2px solid skyblue;
+    width: 367px;
+    height: 424px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.middle-para-section{
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 49px;
+}
+.middle-button-section{
+    color: rgba(135, 0, 255, 1);
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
